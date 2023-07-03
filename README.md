@@ -30,12 +30,12 @@ pip install numpy pandas matplotlib scikit-learn
 
 ## Usage
 
-2. Prepare the heart attack dataset for training. Ensure that the dataset contains relevant features and labeled data indicating the occurrence of heart attacks.
-3. Perform data preprocessing tasks, such as handling missing values, scaling numerical features, and encoding categorical variables, to prepare the dataset for training.
-4. Split the preprocessed dataset into training and testing sets to train and evaluate the machine learning model's performance.
-5. Select a suitable machine learning algorithm, such as logistic regression, random forest, or support vector machines, and train the model using the training dataset.
-6. Evaluate the model's performance using the testing dataset by calculating accuracy, precision, recall, and AUC-ROC.
-7. Once the model is trained and evaluated, it can be used to predict the probability of heart attacks for new individuals based on their health parameters.
+1. Prepare the heart attack dataset for training. Ensure that the dataset contains relevant features and labeled data indicating the occurrence of heart attacks.
+2. Perform data preprocessing tasks, such as handling missing values, scaling numerical features, and encoding categorical variables, to prepare the dataset for training.
+3. Split the preprocessed dataset into training and testing sets to train and evaluate the machine learning model's performance.
+4. Select a suitable machine learning algorithm, such as logistic regression, random forest, or support vector machines, and train the model using the training dataset.
+5. Evaluate the model's performance using the testing dataset by calculating accuracy, precision, recall, and AUC-ROC.
+6. Once the model is trained and evaluated, it can be used to predict the probability of heart attacks for new individuals based on their health parameters.
 
 ## Features
 
