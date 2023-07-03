@@ -6,27 +6,30 @@ Heart attacks are a significant health concern worldwide. Early detection and pr
 
 ## Table of Contents
 
-- [Features](#features)
-- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Model Evaluation](#model-evaluation)
+- [Features](#features)
+- [Configuration](#configuration)
+- [Acknowledgments](#acknowledgments)
 - [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Features
-
-- **Data Preprocessing**: The model performs data preprocessing techniques, including handling missing values, feature scaling, and categorical variable encoding, to prepare the dataset for training.
-- **Machine Learning Algorithms**: The model utilizes popular machine learning algorithms, such as logistic regression, random forest, or support vector machines, to train and predict heart attack risks.
-- **Feature Importance**: The model analyzes the importance of different features in predicting heart attack risks, providing insights into the factors that significantly influence the prediction.
-- **Model Evaluation**: The model evaluates its performance using various metrics, such as accuracy, precision and recall, to assess its effectiveness in predicting heart attacks.
-
-## Getting Started
+## Installation
 
 To get started with the Heart Attack Prediction Model, follow these steps:
 
-1. Install the necessary libraries:
+1. Clone or Download the repository to your local machine using the following command:
 ```
-pip install numpy pandas scikit-learn
+git clone https://github.com/kershrita/Heart-Attack-Prediction-Model.git
 ```
+2. Install the necessary libraries:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+
+## Usage
+
 2. Prepare the heart attack dataset for training. Ensure that the dataset contains relevant features and labeled data indicating the occurrence of heart attacks.
 3. Perform data preprocessing tasks, such as handling missing values, scaling numerical features, and encoding categorical variables, to prepare the dataset for training.
 4. Split the preprocessed dataset into training and testing sets to train and evaluate the machine learning model's performance.
@@ -34,7 +37,17 @@ pip install numpy pandas scikit-learn
 6. Evaluate the model's performance using the testing dataset by calculating accuracy, precision, recall, and AUC-ROC.
 7. Once the model is trained and evaluated, it can be used to predict the probability of heart attacks for new individuals based on their health parameters.
 
-## Usage
+## Features
+
+- **Data Preprocessing**: The model performs data preprocessing techniques, including handling missing values, feature scaling, and categorical variable encoding, to prepare the dataset for training.
+- **Machine Learning Algorithms**: The model utilizes popular machine learning algorithms, such as logistic regression, random forest, or support vector machines, to train and predict heart attack risks.
+- **Feature Importance**: The model analyzes the importance of different features in predicting heart attack risks, providing insights into the factors that significantly influence the prediction.
+- **Model Evaluation**: The model evaluates its performance using various metrics, such as accuracy, precision and recall, to assess its effectiveness in predicting heart attacks.
+	- **Accuracy**: Measures the overall accuracy of the model's predictions by calculating the percentage of correctly classified instances.
+	- **Precision**: Indicates the proportion of correctly predicted positive instances (heart attacks) out of the total predicted positive instances.
+	- **Recall**: Represents the proportion of correctly predicted positive instances (heart attacks) out of the total actual positive instances.
+
+## Configuration
 
 The Heart Attack Prediction Model can be utilized in various scenarios, including:
 
@@ -43,14 +56,26 @@ The Heart Attack Prediction Model can be utilized in various scenarios, includin
 - **Research and Studies**: Utilize the model in research studies to analyze the impact of different risk factors on heart attack occurrences and identify potential preventive measures.
 - **Healthcare Decision Support**: Support healthcare professionals in making informed decisions regarding heart-related interventions, treatments, and preventive measures.
 
-## Model Evaluation
+## Acknowledgments
 
-The Heart Attack Prediction Model's performance can be evaluated using various metrics, including:
+- **[NumPy](https://numpy.org/doc/stable/)**: The fundamental package for scientific computing in Python. It provides powerful support for multi-dimensional arrays and mathematical functions. Visit the NumPy documentation for tutorials, API reference, and examples.
 
-- **Accuracy**: Measures the overall accuracy of the model's predictions by calculating the percentage of correctly classified instances.
-- **Precision**: Indicates the proportion of correctly predicted positive instances (heart attacks) out of the total predicted positive instances.
-- **Recall**: Represents the proportion of correctly predicted positive instances (heart attacks) out of the total actual positive instances.
+- **[pandas](https://pandas.pydata.org/docs/)**: A versatile library for data manipulation and analysis. It offers easy-to-use data structures and data analysis tools. Check out the pandas documentation for comprehensive guides, examples, and the API reference.
+
+- **[Matplotlib](https://matplotlib.org/stable/users/index.html)**: A plotting library for creating a wide range of visualizations. It supports various plot types and customization options. Explore the Matplotlib documentation for detailed examples and a gallery of plots.
+
+- **[scikit-learn](https://scikit-learn.org/stable/index.html)**: A machine learning library providing tools for classification, regression, clustering, and more. It offers a consistent API and various algorithms. Refer to the scikit-learn documentation for user guides, tutorials, and the API reference.
 
 ## Contributing
 
 Contributions to the Heart Attack Prediction Model project are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
+
+## License
+
+Heart Attack Prediction Model is released under the [MIT License](LICENSE).
+
+## Contact
+
+- Mail: ashrafabdulkhaliq80@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ashraf-abdulkhaliq
+- GitHub: https://github.com/kershrita
