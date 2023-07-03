@@ -25,7 +25,7 @@ git clone https://github.com/kershrita/Heart-Attack-Prediction-Model.git
 ```
 2. Install the necessary libraries:
 ```
-pip install numpy pandas matplotlib scikit-learn
+pip install numpy pandas matplotlib nltk scikit-learn
 ```
 
 ## Usage
@@ -57,13 +57,11 @@ The Heart Attack Prediction Model can be utilized in various scenarios, includin
 - **Healthcare Decision Support**: Support healthcare professionals in making informed decisions regarding heart-related interventions, treatments, and preventive measures.
 
 ## Acknowledgments
+We would like to acknowledge the following resources and libraries that have been instrumental in developing Heart Attack Prediction Model:
 
 - **[NumPy](https://numpy.org/doc/stable/)**: The fundamental package for scientific computing in Python. It provides powerful support for multi-dimensional arrays and mathematical functions. Visit the NumPy documentation for tutorials, API reference, and examples.
-
 - **[pandas](https://pandas.pydata.org/docs/)**: A versatile library for data manipulation and analysis. It offers easy-to-use data structures and data analysis tools. Check out the pandas documentation for comprehensive guides, examples, and the API reference.
-
 - **[Matplotlib](https://matplotlib.org/stable/users/index.html)**: A plotting library for creating a wide range of visualizations. It supports various plot types and customization options. Explore the Matplotlib documentation for detailed examples and a gallery of plots.
-
 - **[scikit-learn](https://scikit-learn.org/stable/index.html)**: A machine learning library providing tools for classification, regression, clustering, and more. It offers a consistent API and various algorithms. Refer to the scikit-learn documentation for user guides, tutorials, and the API reference.
 
 ## Contributing
